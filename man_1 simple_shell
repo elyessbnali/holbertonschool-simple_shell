@@ -1,0 +1,41 @@
+# SIMPLE SHELL(1)
+
+    ## NAME
+
+    simple_shell - a simple shell program
+
+    ## SYNOPSIS
+    # SIMPLE SHELL(1)
+
+    ## NAME
+
+    simple_shell - a simple shell program
+
+    ## SYNOPSIS
+    **DESCRIPTION**
+
+    If `STATUS` is specified, the shell exits with the given exit status; otherwise, it exits with the status of the last executed command.
+
+    ### env
+
+    The `env` command prints the current environment.
+
+    **SYNOPSIS**
+    **DESCRIPTION**
+
+    Prints the current environment variables.
+
+    ## EXAMPLES
+
+    1. Start the shell in interactive mode:
+    2. Use the `exit` command:
+    3. Use the `env` command:
+    ## SEE ALSO
+
+    - [GitHub Repository](https://github.com/elyessbnali/holbertonschool-simple_shell)
+
+    ## AUTHORS
+
+    Elyess Bn Ali, Youssef Zaguia
+
+GitHub - elyessbnali/holbertonschool-simple_shell
