@@ -60,6 +60,7 @@ $ cd holbertonschool-simple_shell
 $ gcc -o shell *.c
 
 GitHub - elyessbnali/holbertonschool-simple_shell
+```
 
 Simple_shell flowchart
 
