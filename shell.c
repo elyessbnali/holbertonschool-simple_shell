@@ -7,7 +7,7 @@
 int main(int ac, char **argv)
 {
     char *line = NULL, **command = NULL;
-    int status = 0;
+    int status = 0, idx = 0;
     (void)ac;
     while (1)
     {
@@ -20,10 +20,13 @@ int main(int ac, char **argv)
             }
             return (status);
         }
+        idx++;
         command = tokenizer(line);
         if (command == NULL)
             continue;
-
-        status = _execute(command, argv);
+        if (is_built(command) == 1)
+            handle_built(command, &status);
+        else
+            status = _execute(command, argv, idx);
     }
 }
