@@ -55,13 +55,13 @@ To use the Simple Shell, clone the repository and compile the source code:
 
 ```bash
 
-Simple_shell flowchart 
-
 $ git clone https://github.com/elyessbnali/holbertonschool-simple_shell
 $ cd holbertonschool-simple_shell
 $ gcc -o shell *.c
 
 GitHub - elyessbnali/holbertonschool-simple_shell
+
+Simple_shell flowchart 
 
 +------------------------+
 |   Start: Launch Shell  |
